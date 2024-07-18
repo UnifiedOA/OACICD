@@ -17,5 +17,5 @@
 */
 main()
 {
-  DebugN("TEST2");
+  DebugN("TEST3");
 }
