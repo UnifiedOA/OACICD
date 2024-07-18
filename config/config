@@ -1,0 +1,10 @@
+[general]
+pvss_path = "C:/Siemens/Automation/WinCC_OA/3.19"
+proj_path = "C:/Users/Siemens/Desktop/DemOA/CICD"
+proj_version = "3.19"
+useNGA = 1
+langs = "en_US.utf8"
+[ui]
+versionControl = "git"
+defaultPanelFormat = "XML"
+numPanelBakFiles = 0
