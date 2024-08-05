@@ -7,7 +7,7 @@ pipeline {
           contentType: 'APPLICATION_JSON",
           httpMode: 'POST',
           requestBody: command,
-          url: "http://{Your OA server URL or localhost if on same machine}:8088/startTests",
+          url: "http://localhost:8088/startTests",
           validResponseCodes: '200')
       }
     }
@@ -17,7 +17,7 @@ pipeline {
           contentType: 'APPLICATION_JSON",
           httpMode: 'POST',
           requestBody: command,
-          url: "http://{Your OA server URL or localhost if on same machine}:8088/startTests",
+          url: "http://localhost:8088/startTests",
           validResponseCodes: '200')
       }
     }
